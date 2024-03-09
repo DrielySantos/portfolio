@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/menu.css" />
+    <link rel="stylesheet" href="/src/css/project-list.css">
+    <link rel="stylesheet" href="/src/css/vars.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Driely Santos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="">
+                <h1 class="logo">DS<span class="accent-dot">.</span></h1>
+            </a>
+
+            <nav>
+                <input type="checkbox" id="menu-hamburguer" />
+
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="presentation" id="presentation">
+        <div class="presentation_details">
+            <h1 class="presentation_details_name">Driely Santos<span class="accent-dot">.</span></h1>
+            <div class="presentation_details_redes">
+                <ul>
+                    <li class="link_linkedin"><a href="https://www.linkedin.com/in/driely-santos98/">LinkedIn</a></li>
+                    <li class="link_github"><a href="http://">| GitHub</a></li>
+                </ul>
+            </div>
+            <div class="presentation_curriculum">
+                <a href="./src/assets/profile.pdf" download="drielysantos_cv" class="btn-cv">Download CV</a>
+            </div>
+        </div>
+
+        <div class="presentation_image">
+            <img src="/src/assets/images/photo-ia-pixar.png" alt="Imagem em estilo PIXAR de Driely">
+        </div>
+
+        <div class="presentation_introduction">
+            <h2 class="presentation_introduction_title">Desenvolvedora Front-end</h2>
+            <p class="presentation_introduction_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, dolorum ratione similique iusto quidem amet veritatis excepturi laudantium tenetur a incidunt debitis. Dolor libero, facilis nesciunt cupiditate deleniti voluptatem. Nihil?</p>
+
+            <!-- <div class="presentation_introduction_tecnology">
+                <h4 class="presentation_introduction_title">Hard skills</h4>
+                <i class="fa-brands fa-html5" style="color: #f2a621;"></i>
+                <i class="fa-brands fa-css3" style="color: #588adf;"></i>
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div id="views_projects">
+            <div class="project">
+                <h3 class="project__title">Projetos</h3>
+            </div>
+            
+
+            <div class="projects__scroll-container">
+                <div class="projects__list">
+                    <section class="projects__list-item">
+                        <!-- CARD 1 -->
+                        <a href="https://decodificador-texto-three.vercel.app/" class="cards" target="_blank">
+                            <div class="cards card1">
+                                <img src="./src/assets/projects/1.png" alt="" />
+                            </div>
+                        </a>
+
+                        <!-- CARD 2 -->
+                        <a href="https://jogo-ruddy-eight.vercel.app/" class="cards" target="_blank">
+                            <div class="cards card2">
+                                <img src="./src/assets/projects/2.png" alt="" />
+                            </div>
+                        </a>
+
+                        <!-- CARD 3 -->
+                        <a href="https://drielysantos.github.io/jujutsu-kaisen/" class="cards" target="_blank">
+                            <div class="cards card3">
+                                <img src="./src/assets/projects/4.png" alt="" />
+                            </div>
+                        </a>
+
+                        <!-- CARD 4 -->
+                        <a href="" class="cards" target="_blank">
+                            <div class="cards card4">
+                                <img src="./src/assets/" alt="" />
+                            </div>
+                        </a>
+
+                        <!-- CARD 5 -->
+                        <a href="https://drielysantos.github.io/SnapClima/" class="cards" target="_blank">
+                            <div class="cards card5">
+                                <img src="./src/assets/projects/5.png" alt="" />
+                            </div>
+                        </a>
+
+                        <!-- CARD 6 -->
+                        <a href="https://drielysantos.github.io/projeto-the-office/" class="cards" target="_blank">
+                            <div class="cards card6">
+                                <img src="./src/assets/projects/3.png" alt="" />
+                            </div>
+                        </a>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <h4 class="footer_title">Desenvolvido por Driely Santos</h4>
+
+        <nav>
+            <ul>
+                <li><a href="#presentation">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer_social">
+            <a href="https://github.com/DrielySantos" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/5521989247323" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/driely-santos98/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:santosdriely98@gmail.com">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
