@@ -1,0 +1,19 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--roxo-body) var(--preto-fosco);
+}
+  
+  *::-webkit-scrollbar {
+    width: 18px;
+}
+
+  *::-webkit-scrollbar-track {
+    background: var(--preto-fosco);
+    border-radius: 20px;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--roxo-body);
+    border-radius: 20px;
+    border: 3px solid var(--preto-fosco);
+}

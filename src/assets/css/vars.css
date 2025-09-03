@@ -1,0 +1,18 @@
+:root{
+    --roxo-claro: #9443d8;
+    --roxo-body:  #9e00ff;
+    --branco: #ffffff;
+    --preto: #000000;
+    --preto-fosco: #040203;
+    --linear-gradient-roxo: #8A35C8;
+    --linear-gradient-verde-escuro: #18C063;
+    --linear-gradient-verde-claro: #00EEA2;
+    --html5: #e19a37;
+    --css:  #6d98ee;
+    --js: #FFD43B;
+    --headphones:  #d336b1;
+    --gamepad: #dd0c0c;
+    --dumbbell: #3d5785;
+    --house: #0a80b3;
+    --accent: #00EEA2;
+}

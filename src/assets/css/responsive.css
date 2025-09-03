@@ -1,0 +1,78 @@
+@media(max-width: 1280px){
+    .cabecalho{
+        padding: 1.9rem;
+    }
+    
+    .home{
+        flex-direction: column;
+        align-items: center;
+        margin: 3.1rem 0;
+        gap: 30px;
+    }
+
+    .home .informacoes{
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projetos .container__projetos{
+        padding: 0 1.9rem;
+    }
+}
+
+@media(min-width: 1024px){
+    .cabecalho .menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cabecalho .menu__sobre-mim{
+        display: none;
+    }
+}
+
+@media (max-width: 650px){
+    .hobbies .hobbies__lista{
+        height: 25rem;
+    }
+
+    .formacoes .formacoes__cursos .container__formacoes-box{
+        width: 55%;
+    }
+}
+
+@media(max-width: 425px){
+    .home .informacoes h1{
+        font-size: 1.8rem;
+    }
+
+    .home .informacoes p{
+        font-size: 1rem;
+    }
+
+    .home .container__foto img{
+        max-width: 20rem;
+    }
+
+    .info-sobre{
+        min-height: 100%;
+    }
+
+    .hobbies .hobbies__lista{
+        height: 25rem;
+    }
+
+    .formacoes .formacoes__cursos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formacoes .formacoes__cursos .container__formacoes-box{
+        width: 55%;
+    }
+
+    .projetos{
+        padding: 1.9rem;
+    }
+}

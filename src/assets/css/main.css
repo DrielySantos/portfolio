@@ -1,0 +1,42 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./home.css");
+@import url("./info-sobre.css");
+@import url("./formacoes.css");
+@import url("./projetos.css");
+@import url("./vars.css");
+@import url("./responsive.css");
+@import url("./scroll.css");
+
+
+html{
+    color: var(--branco);
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, var(--preto), var(--roxo-body));
+    background-size: 120% 120%;
+}
+
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+

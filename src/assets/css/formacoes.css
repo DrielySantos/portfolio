@@ -1,0 +1,47 @@
+.formacoes__titulo{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: .9rem;
+}
+
+.formacoes .formacoes__cursos{
+    display: flex;
+    padding: 2rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.formacoes .formacoes__cursos .formacoes__cursos__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formacoes .container__formacoes-box{
+    width: 22%;
+    height: 20%;
+}
+
+.formacoes__cursos__list .formacoes__cursos__item__img{
+    width: 100%;
+    height: 10rem;
+    background-color: var(--branco);
+    border-radius: .4rem;
+    padding: 1.5rem;
+}
+
+.formacoes__cursos__list .formacoes__cursos__item__titulo{
+    padding: .5rem;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.formacoes__cursos__list .formacoes__cursos__item__subtitulo{
+    color: var(--branco);
+    padding: 0 .5rem;
+}
+
+.formacoes__cursos__list .formacoes__cursos__item__subtitulo span{
+    color: var(--accent);
+}

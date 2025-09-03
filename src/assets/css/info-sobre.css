@@ -1,0 +1,121 @@
+.info-sobre{
+    display: flex;
+    padding: 4.4rem 0 4.4rem;;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.info-sobre .container__info-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.info-sobre .container__info-sobre .skills,
+.hobbies{
+    width: 100%;
+}
+
+.skills .skills__titulo{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.skills .skills__tecnologias{
+    display: flex;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.skills .skills__tecnologias li{
+    font-size: 3rem;
+    gap: .9rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.skills__tecnologias .fa-html5 {
+    color: var(--html5);
+}
+
+.skills__tecnologias .fa-css3-alt{
+    color: var(--css);
+}
+
+.skills__tecnologias .fa-js{
+    color: var(--js);
+}
+
+.skills .skills__tecnologias p{
+    font-size: 1rem;
+}
+
+.hobbies .hobbies__titulo{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hobbies .hobbies__lista{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    gap: 15px;
+    height: 20rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hobbies .hobbies__lista li{
+    height: 8rem;
+    width: 7rem;
+    flex-grow: 1;
+    padding: 2rem 0;
+    cursor: pointer;
+    background-color: var(--branco);
+    color: var(--preto);
+    transition: 0.3s;
+}
+
+.hobbies .hobbies__lista li:hover{
+    color: var(--roxo-claro);
+}
+
+.hobbies .hobbies__lista li i{
+    justify-content: center;
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.hobbies .hobbies__lista li p{
+    margin-top: .9rem;
+}
+
+.hobbies__lista .fa-headphones{
+    color: var(--headphones);
+} 
+
+.hobbies__lista .fa-tv{
+    color: var(--preto-fosco);
+} 
+
+.hobbies__lista .fa-gamepad{
+    color: var(--gamepad);
+} 
+
+.hobbies__lista .fa-dumbbell{
+    color: var(--dumbbell);
+}
+
+.hobbies__lista .fa-house{
+    color: var(--house);
+}
+
+.hobbies .hobbies__lista p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+}
