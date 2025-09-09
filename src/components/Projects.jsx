@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import encriptadorImg from "../assets/image-projetcs/encriptador.png"; 
 import numeroSecretoImg from "../assets/image-projetcs/numero-secreto.png";
 import cartoonPlayImg from "../assets/image-projetcs/cartoonplay.png";
