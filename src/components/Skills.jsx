@@ -15,6 +15,10 @@ function Skills() {
                     <i className="fa-brands fa-js"></i>
                     <p>JavaScript</p>
                 </li>
+                <li className="skills__tecnologias-item">
+                    <i className="fa-brands fa-js"></i>
+                    <p>React</p>
+                </li>
             </ul>
         </div>
     );
