@@ -25,7 +25,7 @@
     display: none;
 }
 
-.projetos .projeto.ativo{
+.projetos .container__projetos .projeto.ativo{
     display: block;
 }
 
