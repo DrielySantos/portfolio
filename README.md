@@ -23,7 +23,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Feito com 💙 por Driely Santos
 
-- 💼 [Linkedin](https://www.linkedin.com/in/driely-santos/)
+- 💼 [Linkedin](https://www.linkedin.com/in/drielysantos/)
 - 🐙 [GitHub](https://github.com/DrielySantos)
 
 ### ✨ Obrigada por visitar meu portfólio!
