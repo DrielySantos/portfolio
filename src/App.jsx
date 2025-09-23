@@ -1,7 +1,7 @@
-import './App.css'
 import About from './components/About'
 import Header from './components/Header'
 import Home from './components/Home'
+import Studies from './components/Studies'
 import Projects from './components/Projects'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Header />
         <Home />
         <About />
+        <Studies />
         <Projects />
       </main>
     </>
