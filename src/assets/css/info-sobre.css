@@ -13,6 +13,25 @@
     gap: 1rem;
 }
 
+.info-sobre .container__info-sobre .bio{
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.1;
+}
+
+.info-sobre .container__info-sobre .bio .bio__titulo{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.info-sobre .container__info-sobre .bio p{
+    font-family: 'Courier New', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
 .info-sobre .container__info-sobre .skills,
 .hobbies{
     width: 100%;
